@@ -49,3 +49,6 @@ body {
 .team-title {
   color: var(--primary-text-color);
 }
+.advantages-list {
+  color: var(--title-text-color);
+}

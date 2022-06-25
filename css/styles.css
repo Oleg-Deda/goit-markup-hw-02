@@ -1,9 +1,3 @@
-body {
-  background: #ffffff;
-}
-.list {
-  list-style: none;
-}
 /* цвет основного текста #757575 */
 
 /* вторичный цвет #212121 */
@@ -12,29 +6,46 @@ body {
 
 /* акцент #2196F3 */
 /* цвет фона #2F303A */
+:root {
+  --primary-text-color: #212121;
+  --title-text-color: #757575;
+  --accent-color: #2196f3;
+}
+
+body {
+  background: #ffffff;
+  color: var(--primary-text-color);
+}
+.list {
+  list-style: none;
+}
 
 /* site nav */
 .site-nav a {
-  color: #212121;
+  color: var(--primary-text-color);
 }
 
 .site-nav a:hover,
 .site-nav a:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 /* contacts nav */
 .contacts-nav a {
-  color: #757575;
+  color: var(--primary-text-color);
 }
 
 .contacts-nav a:hover,
 .contacts-nav a:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .section-title {
-  color: #212121;
+  color: var(--primary-text-color);
 }
 .hero-title {
-  color: #2196f3;
+  color: var(--accent-color);
+}
+.team,
+.team-title {
+  color: var(--primary-text-color);
 }

@@ -1,4 +1,8 @@
 body {
+  background: #ffffff;
+}
+.list {
+  list-style: none;
 }
 /* цвет основного текста #757575 */
 
@@ -8,3 +12,29 @@ body {
 
 /* акцент #2196F3 */
 /* цвет фона #2F303A */
+
+/* site nav */
+.site-nav a {
+  color: #212121;
+}
+
+.site-nav a:hover,
+.site-nav a:focus {
+  color: #2196f3;
+}
+
+/* contacts nav */
+.contacts-nav a {
+  color: #757575;
+}
+
+.contacts-nav a:hover,
+.contacts-nav a:focus {
+  color: #2196f3;
+}
+.section-title {
+  color: #212121;
+}
+.hero-title {
+  color: #2196f3;
+}

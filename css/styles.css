@@ -10,45 +10,58 @@
   --primary-text-color: #212121;
   --title-text-color: #757575;
   --accent-color: #2196f3;
+  --primary-bg-color: #ffffff;
 }
 
-body {
-  background: #ffffff;
+.body {
+  background-color: var(--primary-bg-color);
   color: var(--primary-text-color);
 }
 .list {
   list-style: none;
 }
 
-/* site nav */
-.site-nav a {
+/* Header nav */
+.header {
   color: var(--primary-text-color);
 }
 
-.site-nav a:hover,
-.site-nav a:focus {
+.header-item:hover,
+.header-item:focus {
   color: var(--accent-color);
 }
 
 /* contacts nav */
-.contacts-nav a {
+.contacts-nav {
   color: var(--primary-text-color);
 }
 
-.contacts-nav a:hover,
-.contacts-nav a:focus {
+.contacts-nav :hover,
+.contacts-nav :focus {
   color: var(--accent-color);
 }
-.section-title {
-  color: var(--primary-text-color);
-}
+
+/* Hero */
 .hero-title {
   color: var(--accent-color);
 }
-.team,
-.team-title {
+/* Section */
+.section-title {
   color: var(--primary-text-color);
 }
-.advantages-list {
+
+/* Feature */
+.feature-list {
   color: var(--title-text-color);
+}
+
+/* Team */
+.team-list {
+  color: var(--title-text-color);
+}
+
+/* Button */
+.button {
+  color: var(--primary-bg-color #ffffff);
+  background-color: #2196f3;
 }

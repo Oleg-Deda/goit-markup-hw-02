@@ -17,9 +17,6 @@
   background-color: var(--primary-bg-color);
   color: var(--primary-text-color);
 }
-.list {
-  list-style: none;
-}
 
 /* Header nav */
 .header {

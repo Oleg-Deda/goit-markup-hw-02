@@ -12,7 +12,7 @@
   --title-text-color: #757575;
   --accent-color: #2196f3;
   --primary-white-color: #ffffff;
-  --secondary-bg-color: #2f303a;
+  --secondary-bgc-color: #2f303a;
 }
 
 .body {
@@ -98,8 +98,8 @@
   color: var(--title-text-color);
 }
 /* Footer */
-.footer {
-  background-color: var(--secondary-bg-color);
+.footer-menu {
+  background-color: var(--secondary-bgc-color);
   color: #ffffff;
 }
 /* .footer-logo { */
@@ -119,6 +119,22 @@
   color: #ffffff;
 }
 
-.footer-list .link {
+.footer-list .adress-link {
   color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-list .adress-link:hover,
+.footer-list .adress-link:focus {
+  color: #2196f3;
+}
+
+/* Portfolio */
+.work-btn-list {
+  background-color: #f5f4fa;
+  color: var(--primary-text-color);
+}
+
+.work-btn-list:hover,
+.work-btn-list:focus {
+  color: var(--accent-color);
 }

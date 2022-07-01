@@ -1,23 +1,19 @@
-/* цвет основного текста #757575 */
-
-/* вторичный цвет #212121 */
-
-/* белый #ffffff; */
-
-/* акцент #2196F3 */
-/* акцент secondary #188CE8 */
-/* цвет фона #2F303A */
 :root {
-  --primary-text-color: #212121;
-  --title-text-color: #757575;
+  /* Color */
+  --primary-black-color: #212121;
+  --description-color: #757575;
   --accent-color: #2196f3;
   --primary-white-color: #ffffff;
-  --secondary-bg-color: #2f303a;
+  --bg-darkgrey-color: #2f303a;
+  --bg-light-gray-color: #f5f4fa;
+  /* Fonts */
+  --primary-font: 'Roboto' sans-serif;
+  --logo-font: 'Raleway', sans-serif;
 }
 
 .body {
   color: var(--primary-text-color);
-  font-family: 'Roboto';
+  font-family: var(--primary-font);
 }
 .list {
   list-style: none;
@@ -39,7 +35,7 @@
 
 /* Nav site */
 .site-nav .link {
-  color: var(--primary-text-color);
+  color: var(--primary-black-color);
 }
 .current-link {
   color: var(--accent-color);
@@ -47,32 +43,32 @@
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 /* Nav contacts  */
 .contacts-nav .link {
-  color: var(--title-text-color);
+  color: var(--description-color);
 }
 
 .contacts-nav :hover,
 .contacts-nav :focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 /* Section Hero*/
 .hero {
-  background-color: #2f303a;
+  background-color: var(--bg-darkgrey-color);
 }
 
 .hero-title {
   color: var(--primary-white-color);
-  background-color: #2f303a;
+  background-color: var(--bg-darkgrey-color);
 }
 
 .button {
   color: var(--primary-white-color);
-  background-color: #2196f3;
+  background-color: var(--accent-color);
 }
 
 .button:hover,
@@ -84,39 +80,39 @@
 /* Features */
 .features-item-title,
 .team-uppertitle {
-  color: var(--primary-text-color);
+  color: var(--primary-black-color);
 }
 .features-descr {
-  color: var(--title-text-color);
+  color: var(--description-color);
 }
 
 /* About */
 .about-title {
-  color: var(--primary-text-color);
+  color: var(--primary-black-color);
 }
 
 /* Team */
 .team {
-  background-color: #f5f4fa;
+  background-color: var(--bg-light-gray-color);
 }
 
 .team-uppertitle {
-  color: var(--primary-text-color);
+  color: var(--primary-black-color);
 }
 .team-list {
-  color: var(--title-text-color);
+  color: var(--description-color);
 }
 /* Footer */
 .footer {
-  background-color: var(--secondary-bg-color);
-  color: #ffffff;
+  background-color: var(--bg-darkgrey-color);
+  color: var(--primary-white-color);
 }
 
 .footer-logo {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .footer-logo-accent {
-  color: #ffffff;
+  color: var(--primary-white-color);
 }
 
 .footer-menu {
@@ -125,7 +121,7 @@
 
 .adress-link:hover,
 .adress-link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .footer-adress {
   font-style: normal;
@@ -133,7 +129,7 @@
 
 /* Portfolio */
 .work-btn-list {
-  background-color: #f5f4fa;
+  background-color: var(--bg-light-gray-color);
   color: var(--primary-text-color);
 }
 

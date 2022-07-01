@@ -20,26 +20,28 @@
 }
 .list {
   list-style: none;
+  cursor: pointer;
 }
-.logo-link {
-  color: #2196f3;
+/* Reset styles */
+.link {
+  text-decoration: none;
+  color: currentColor;
+}
+/* Цвета элементов шапки  */
+.logo {
+  color: var(--accent-color);
 }
 
-.logo-accent {
+.logo-word {
   color: #212121;
 }
 
-/*  */
-/* .logo { */
-/* color: #000000; */
-/* } */
-/* .logo:hover { */
-/* color: #2196f3; */
-/* } */
-
-/* Site nav */
+/* Nav site */
 .site-nav .link {
   color: var(--primary-text-color);
+}
+.current-link {
+  color: var(--accent-color);
 }
 
 .site-nav .link:hover,
@@ -47,7 +49,7 @@
   color: #2196f3;
 }
 
-/* contacts nav */
+/* Nav contacts  */
 .contacts-nav .link {
   color: var(--title-text-color);
 }
@@ -57,20 +59,25 @@
   color: #2196f3;
 }
 
-/* Hero */
+/* Section Hero*/
+.hero {
+  background-color: #2f303a;
+}
+
+.hero-title {
+  color: var(--primary-white-color);
+  background-color: #2f303a;
+}
+
 .button {
-  color: #ffffff;
+  color: var(--primary-white-color);
   background-color: #2196f3;
 }
 
 .button:hover,
 .button:focus {
   background-color: #188ce8;
-}
-
-/* Section */
-.section-title {
-  color: var(--primary-text-color);
+  cursor: pointer;
 }
 
 /* Features */
@@ -82,7 +89,16 @@
   color: var(--title-text-color);
 }
 
+/* About */
+.about-title {
+  color: var(--primary-text-color);
+}
+
 /* Team */
+.team {
+  background-color: #f5f4fa;
+}
+
 .team-uppertitle {
   color: var(--primary-text-color);
 }
@@ -94,9 +110,7 @@
   background-color: var(--secondary-bg-color);
   color: #ffffff;
 }
-/* .footer-logo { */
-/* color: #ffffff; */
-/* } */
+
 .footer-logo {
   color: #2196f3;
 }
@@ -122,4 +136,8 @@
 .work-btn-list:hover,
 .work-btn-list:focus {
   color: var(--accent-color);
+}
+
+.visually-hidden {
+  display: none;
 }

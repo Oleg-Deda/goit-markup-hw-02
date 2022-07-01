@@ -164,9 +164,22 @@
 
 .team-uppertitle {
   color: var(--primary-black-color);
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  text-align: center;
+  letter-spacing: 0.03em;
 }
-.team-list {
+.team-item-title {
   color: var(--description-color);
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 /* Footer */
@@ -177,6 +190,13 @@
 
 .footer-logo {
   color: var(--accent-color);
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
 }
 .footer-logo-accent {
   color: var(--primary-white-color);
@@ -184,6 +204,11 @@
 
 .footer-menu {
   color: rgba(255, 255, 255, 0.6);
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
 }
 
 .adress-link:hover,
@@ -191,7 +216,12 @@
   color: var(--accent-color);
 }
 .footer-adress {
+  font-family: 'Roboto';
   font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
 }
 
 /* Portfolio */
@@ -209,10 +239,35 @@
 .work-btn-item .list.current {
   color: var(--accent-color);
 }
+
+.work-btn-item {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(26 / 16);
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
 .visually-hidden {
   display: none;
 }
 
 .portfolio-text {
   color: var(--description-color);
+}
+
+.portfolio-title {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 18px;
+  line-height: calc(36 / 18);
+  letter-spacing: 0.06em;
+}
+.portfolio-text {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
 }

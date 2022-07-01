@@ -1,0 +1,218 @@
+:root {
+  /* Color */
+  --primary-black-color: #212121;
+  --description-color: #757575;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+  --bg-darkgrey-color: #2f303a;
+  --bg-light-gray-color: #f5f4fa;
+  /* Fonts */
+  --primary-font: 'Roboto', sans-serif;
+  --logo-font: 'Raleway', sans-serif;
+}
+
+.body {
+  color: var(--primary-text-color);
+  font-family: var(--primary-font);
+}
+
+.list {
+  list-style: none;
+  cursor: pointer;
+}
+/* Reset styles */
+.link {
+  text-decoration: none;
+  color: currentColor;
+}
+
+.logo {
+  color: var(--accent-color);
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.logo-word {
+  color: #212121;
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  letter-spacing: 0.03em;
+}
+
+/* Nav site */
+.site-nav .link {
+  color: var(--primary-black-color);
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+/* Nav contacts  */
+.contacts-nav .link {
+  color: var(--description-color);
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+}
+
+.contacts-nav :hover,
+.contacts-nav :focus {
+  color: var(--accent-color);
+}
+
+/* Section Hero*/
+.hero {
+  background-color: var(--bg-darkgrey-color);
+}
+
+.hero-title {
+  color: var(--primary-white-color);
+  background-color: var(--bg-darkgrey-color);
+  font-family: 'Roboto';
+  font-weight: 900;
+  font-size: 44px;
+  line-height: calc(60 / 44);
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.button {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #188ce8;
+  cursor: pointer;
+}
+
+/* Features */
+.features-item-title,
+.team-uppertitle {
+  color: var(--primary-black-color);
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.features-descr {
+  color: var(--description-color);
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+}
+
+/* About */
+.about-title {
+  color: var(--primary-black-color);
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* Team */
+.team {
+  background-color: var(--bg-light-gray-color);
+}
+
+.team-title {
+  color: var(--primary-black-color);
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.team-uppertitle {
+  color: var(--primary-black-color);
+}
+.team-list {
+  color: var(--description-color);
+}
+
+/* Footer */
+.footer {
+  background-color: var(--bg-darkgrey-color);
+  color: var(--primary-white-color);
+}
+
+.footer-logo {
+  color: var(--accent-color);
+}
+.footer-logo-accent {
+  color: var(--primary-white-color);
+}
+
+.footer-menu {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.adress-link:hover,
+.adress-link:focus {
+  color: var(--accent-color);
+}
+.footer-adress {
+  font-style: normal;
+}
+
+/* Portfolio */
+.work-btn-list {
+  background-color: var(--bg-light-gray-color);
+  color: var(--primary-text-color);
+}
+
+.work-btn-item:hover,
+.work-btn-item:focus {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
+
+.work-btn-item .list.current {
+  color: var(--accent-color);
+}
+.visually-hidden {
+  display: none;
+}
+
+.portfolio-text {
+  color: var(--description-color);
+}

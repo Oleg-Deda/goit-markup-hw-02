@@ -37,9 +37,6 @@
 .site-nav .link {
   color: var(--primary-black-color);
 }
-.current-link {
-  color: var(--accent-color);
-}
 
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -53,6 +50,9 @@
 
 .contacts-nav :hover,
 .contacts-nav :focus {
+  color: var(--accent-color);
+}
+.site-nav .link.current {
   color: var(--accent-color);
 }
 
@@ -133,11 +133,15 @@
   color: var(--primary-text-color);
 }
 
-.work-btn-list:hover,
-.work-btn-list:focus {
-  color: var(--accent-color);
+.work-btn-item:hover,
+.work-btn-item:focus {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
 }
 
+.work-btn-item .list.current {
+  color: var(--accent-color);
+}
 .visually-hidden {
   display: none;
 }

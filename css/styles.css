@@ -17,6 +17,7 @@
 
 .body {
   color: var(--primary-text-color);
+  font-family: 'Roboto';
 }
 .list {
   list-style: none;
@@ -118,13 +119,16 @@
   color: #ffffff;
 }
 
-.footer-menu .adress-link {
+.footer-menu {
   color: rgba(255, 255, 255, 0.6);
 }
 
 .adress-link:hover,
 .adress-link:focus {
   color: #2196f3;
+}
+.footer-adress {
+  font-style: normal;
 }
 
 /* Portfolio */

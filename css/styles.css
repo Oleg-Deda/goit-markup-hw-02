@@ -12,26 +12,19 @@
   --title-text-color: #757575;
   --accent-color: #2196f3;
   --primary-white-color: #ffffff;
-  --secondary-bgc-color: #2f303a;
+  --secondary-bg-color: #2f303a;
 }
 
 .body {
-  background-color: #ffffff;
   color: var(--primary-text-color);
 }
 .list {
   list-style: none;
 }
 .logo-link {
-  font-family: 'Raleway', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 26px;
-  line-height: 1.15;
-  letter-spacing: 0.03em;
   color: #2196f3;
-  text-decoration: none;
 }
+
 .logo-accent {
   color: #212121;
 }
@@ -73,7 +66,6 @@
 .button:hover,
 .button:focus {
   background-color: #188ce8;
-  color: #ffffff;
 }
 
 /* Section */
@@ -98,33 +90,26 @@
   color: var(--title-text-color);
 }
 /* Footer */
-.footer-menu {
-  background-color: var(--secondary-bgc-color);
+.footer {
+  background-color: var(--secondary-bg-color);
   color: #ffffff;
 }
 /* .footer-logo { */
 /* color: #ffffff; */
 /* } */
 .footer-logo {
-  font-family: 'Raleway', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.15;
-  letter-spacing: 0.03em;
   color: #2196f3;
-  text-decoration: none;
 }
 .footer-logo-accent {
   color: #ffffff;
 }
 
-.footer-list .adress-link {
+.footer-menu .adress-link {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-list .adress-link:hover,
-.footer-list .adress-link:focus {
+.adress-link:hover,
+.adress-link:focus {
   color: #2196f3;
 }
 

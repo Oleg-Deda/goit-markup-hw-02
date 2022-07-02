@@ -7,13 +7,12 @@
   --bg-darkgrey-color: #2f303a;
   --bg-light-gray-color: #f5f4fa;
   /* Fonts */
-  --primary-font: 'Roboto', sans-serif;
   --logo-font: 'Raleway', sans-serif;
 }
 
-.body {
+body {
   color: var(--primary-text-color);
-  font-family: var(--primary-font);
+  font-family: 'Roboto', sans-serif;
 }
 
 .list {
@@ -29,10 +28,9 @@
 .logo {
   color: var(--accent-color);
   font-family: 'Raleway';
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: calc(31 / 26);
+  line-height: 1.19;
   letter-spacing: 0.03em;
   text-decoration: none;
 }
@@ -42,17 +40,16 @@
   font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
-  line-height: calc(31 / 26);
+  line-height: 1.19;
   letter-spacing: 0.03em;
 }
 
 /* Nav site */
 .site-nav .link {
   color: var(--primary-black-color);
-  font-family: 'Roboto';
   font-weight: 500;
   font-size: 14px;
-  line-height: calc(16 / 14);
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 
@@ -68,10 +65,9 @@
 /* Nav contacts  */
 .contacts-nav .link {
   color: var(--description-color);
-  font-family: 'Roboto';
   font-weight: 500;
   font-size: 14px;
-  line-height: calc(16 / 14);
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 
@@ -88,10 +84,9 @@
 .hero-title {
   color: var(--primary-white-color);
   background-color: var(--bg-darkgrey-color);
-  font-family: 'Roboto';
   font-weight: 900;
   font-size: 44px;
-  line-height: calc(60 / 44);
+  line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -100,10 +95,9 @@
 .button {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
-  font-family: 'Roboto';
   font-weight: 700;
   font-size: 16px;
-  line-height: calc(30 / 16);
+  line-height: 1.88;
   display: flex;
   align-items: center;
   text-align: center;
@@ -120,29 +114,26 @@
 .features-item-title,
 .team-uppertitle {
   color: var(--primary-black-color);
-  font-family: 'Roboto';
+  text-decoration: none;
   font-weight: 700;
   font-size: 14px;
-  line-height: calc(16 / 14);
+  line-height: 1.14;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
 }
 .features-descr {
   color: var(--description-color);
-  font-family: 'Roboto';
   font-weight: 400;
   font-size: 14px;
-  line-height: calc(24 / 14);
+  line-height: 1.71;
   letter-spacing: 0.03em;
 }
 
 /* About */
 .about-title {
   color: var(--primary-black-color);
-  font-family: 'Roboto';
   font-weight: 700;
   font-size: 36px;
-  line-height: calc(42 / 36);
+  line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -154,30 +145,26 @@
 
 .team-title {
   color: var(--primary-black-color);
-  font-family: 'Roboto';
   font-weight: 700;
   font-size: 36px;
-  line-height: calc(42 / 36);
+  line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
 }
 
 .team-uppertitle {
   color: var(--primary-black-color);
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: calc(19 / 16);
+  line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
 }
 .team-item-title {
   color: var(--description-color);
-  font-family: 'Roboto';
   font-weight: 400;
   font-size: 16px;
-  line-height: calc(19 / 16);
+  line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -193,7 +180,7 @@
   font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
-  line-height: calc(31 / 26);
+  line-height: 1.19;
   /* identical to box height */
 
   letter-spacing: 0.03em;
@@ -204,10 +191,9 @@
 
 .footer-menu {
   color: rgba(255, 255, 255, 0.6);
-  font-family: 'Roboto';
   font-weight: 400;
   font-size: 14px;
-  line-height: calc(24 / 14);
+  line-height: 1.71;
   letter-spacing: 0.03em;
 }
 
@@ -216,11 +202,9 @@
   color: var(--accent-color);
 }
 .footer-adress {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: calc(24 / 14);
+  line-height: 1.71;
   letter-spacing: 0.03em;
 }
 
@@ -241,10 +225,9 @@
 }
 
 .work-btn-item {
-  font-family: 'Roboto';
   font-weight: 500;
   font-size: 16px;
-  line-height: calc(26 / 16);
+  line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -258,16 +241,14 @@
 }
 
 .portfolio-title {
-  font-family: 'Roboto';
   font-weight: 700;
   font-size: 18px;
-  line-height: calc(36 / 18);
+  line-height: 2;
   letter-spacing: 0.06em;
 }
 .portfolio-text {
-  font-family: 'Roboto';
   font-weight: 400;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.87;
   letter-spacing: 0.03em;
 }

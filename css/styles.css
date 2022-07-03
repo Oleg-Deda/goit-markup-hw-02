@@ -111,15 +111,16 @@ body {
 }
 
 /* Features */
-.features-item-title,
-.team-uppertitle {
+.features-item-title {
   color: var(--primary-black-color);
-  text-decoration: none;
+  /* text-decoration: none; */
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
+
 .features-descr {
   color: var(--description-color);
   font-weight: 400;
@@ -181,8 +182,6 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  /* identical to box height */
-
   letter-spacing: 0.03em;
 }
 .footer-logo-accent {
@@ -206,12 +205,24 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  font-style: normal;
 }
 
 /* Portfolio */
-.work-btn-list {
-  background-color: var(--bg-light-gray-color);
-  color: var(--primary-text-color);
+/* .work-btn-list { */
+/* background-color: var(--bg-light-gray-color); */
+/* color: var(--primary-text-color); */
+/* } */
+
+.work-btn-item {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  border: none;
+  background-color: #f5f4fa;
 }
 
 .work-btn-item:hover,
@@ -222,15 +233,6 @@ body {
 
 .work-btn-item .list.current {
   color: var(--accent-color);
-}
-
-.work-btn-item {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  text-align: center;
-  letter-spacing: 0.03em;
 }
 
 .visually-hidden {
